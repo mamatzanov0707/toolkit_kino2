@@ -1,0 +1,36 @@
+#header{
+  background: rgba(65, 105, 225, 0.51);
+  padding: 14px 0;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;*
+    &--ing{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      img{
+        border-radius: 10px;
+      }
+      h3{
+        font-weight: 700;
+        font-size: 22px;
+        color: black;
+        margin: 10px;
+        text-decoration: none;
+      }
+    }
+    &--link{
+      margin-left: 1em;
+
+      a{
+        font-weight: 700;
+        color: #ea0303;
+        margin: 15px;
+        font-size: 20px;
+      }
+    }
+  }
+}
